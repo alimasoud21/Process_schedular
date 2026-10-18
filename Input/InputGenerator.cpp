@@ -36,7 +36,7 @@ int main() {
         int cpu_count = bursts_number(gen);
         int total_bursts = 2 * cpu_count - 1; //between 19 - 59
 
-        file << pid << ' ' ; //<< process<< " "<< total_bursts;
+        //file << pid << ' ' ; //<< process<< " "<< total_bursts;
 
         for (int i = 0; i < cpu_count; i++) {
 
